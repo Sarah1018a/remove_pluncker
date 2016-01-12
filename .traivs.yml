@@ -1,0 +1,4 @@
+nguage: objective-c
+xcode_project: /Users/sarah/Documents/xcode/remove_pluncker # path to your xcodeproj folder
+xcode_scheme: remove_pluncker
+osx_image: xcode7.1

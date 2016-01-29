@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010E745F4AB94B8790D69B3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D468016C915EA7D4DD7657 /* SystemConfiguration.framework */; };
+		20D2B49227AB99DCA0CA759F /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DBD4FD2F87575E98B8430A /* BuddyBuildSDK.framework */; };
+		257D543D6AF1E2EEF989F1B9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDA596D8FE116EC81473748 /* CoreText.framework */; };
 		268465DE1C1989E1004B07F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268465DD1C1989E1004B07F6 /* main.m */; };
 		268465E11C1989E1004B07F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268465E01C1989E1004B07F6 /* AppDelegate.m */; };
 		268465E41C1989E1004B07F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268465E31C1989E1004B07F6 /* ViewController.m */; };
@@ -17,6 +20,8 @@
 		268466021C1989E1004B07F6 /* remove_plunckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268466011C1989E1004B07F6 /* remove_plunckerUITests.m */; };
 		268466121C198A83004B07F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268466111C198A83004B07F6 /* SystemConfiguration.framework */; };
 		268466181C198BF9004B07F6 /* BugHD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268466171C198BF9004B07F6 /* BugHD.framework */; };
+		39622C7C5B77A046282AF3ED /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01884453C778555C2B95F00A /* AssetsLibrary.framework */; };
+		7DA4B7F11A25D40FEE8EED53 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696B2FE66ADF186E3FD099BC /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01884453C778555C2B95F00A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		16DBD4FD2F87575E98B8430A /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		268465D91C1989E1004B07F6 /* remove_pluncker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remove_pluncker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268465DD1C1989E1004B07F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		268465DF1C1989E1004B07F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +62,9 @@
 		268466031C1989E1004B07F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268466111C198A83004B07F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		268466171C198BF9004B07F6 /* BugHD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BugHD.framework; sourceTree = "<group>"; };
+		696B2FE66ADF186E3FD099BC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8EDA596D8FE116EC81473748 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C7D468016C915EA7D4DD7657 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,11 @@
 			files = (
 				268466121C198A83004B07F6 /* SystemConfiguration.framework in Frameworks */,
 				268466181C198BF9004B07F6 /* BugHD.framework in Frameworks */,
+				20D2B49227AB99DCA0CA759F /* BuddyBuildSDK.framework in Frameworks */,
+				39622C7C5B77A046282AF3ED /* AssetsLibrary.framework in Frameworks */,
+				257D543D6AF1E2EEF989F1B9 /* CoreText.framework in Frameworks */,
+				7DA4B7F11A25D40FEE8EED53 /* CoreTelephony.framework in Frameworks */,
+				010E745F4AB94B8790D69B3C /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +108,7 @@
 				268465F51C1989E1004B07F6 /* remove_plunckerTests */,
 				268466001C1989E1004B07F6 /* remove_plunckerUITests */,
 				268465DA1C1989E1004B07F6 /* Products */,
+				CEAE5063CA351CA58C413909 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +162,18 @@
 				268466031C1989E1004B07F6 /* Info.plist */,
 			);
 			path = remove_plunckerUITests;
+			sourceTree = "<group>";
+		};
+		CEAE5063CA351CA58C413909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16DBD4FD2F87575E98B8430A /* BuddyBuildSDK.framework */,
+				01884453C778555C2B95F00A /* AssetsLibrary.framework */,
+				8EDA596D8FE116EC81473748 /* CoreText.framework */,
+				696B2FE66ADF186E3FD099BC /* CoreTelephony.framework */,
+				C7D468016C915EA7D4DD7657 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,6 +549,7 @@
 				268466081C1989E1004B07F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		268466091C1989E1004B07F6 /* Build configuration list for PBXNativeTarget "remove_plunckerTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +558,7 @@
 				2684660B1C1989E1004B07F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2684660C1C1989E1004B07F6 /* Build configuration list for PBXNativeTarget "remove_plunckerUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +567,7 @@
 				2684660E1C1989E1004B07F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

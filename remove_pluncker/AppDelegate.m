@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <BugHD/BugHD.h>
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup];
+    
     // Override point for customization after application launch.
     [BugHD handleCrashWithKey:@"be44eec6e4ef552dfe8f694fd10a2636"];
     return YES;
